@@ -1,11 +1,29 @@
+body{
+   
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: white;
+      
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.281); /* Red with 50% transparency */
+    
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid white;
+}
+th{
+    background-color: rgb(0, 119, 255);
+}
+td{
+    font-weight: 300;
 }
 
 th, td {
