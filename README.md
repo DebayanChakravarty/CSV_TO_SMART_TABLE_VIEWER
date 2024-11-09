@@ -9,6 +9,7 @@ How to Use:
 1)Clone the project and run in live server
 Demo Link:
 https://debayanchakravarty.in/CSV_TO_SMART_TABLE_VIEWER/
+<img width="761" alt="Screenshot 2024-11-06 at 3 44 48 PM" src="https://github.com/user-attachments/assets/e3c9a9b5-b375-495e-a330-a8337dcfbd3b">
 View the converted JSON and dynamic table.
 Use the built-in tools to search table data as needed.
 This project is perfect for those looking to visualize CSV data interactively without any backend dependencies.
