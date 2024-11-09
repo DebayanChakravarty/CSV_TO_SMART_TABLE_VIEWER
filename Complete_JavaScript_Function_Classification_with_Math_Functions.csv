@@ -57,3 +57,95 @@ Math.atanh,Hyperbolic,Returns the hyperbolic arctangent of a value,Math.atanh(x)
 Math.random,Random,Returns a random number between 0 (inclusive) and 1 (exclusive),Math.random(),"Math.random() // e.g., 0.539",Generate a random number between 0 and 1
 Math.PI,Constant,Returns the value of π (pi),Math.PI,Math.PI // 3.14159...,Get the value of π
 Math.E,Constant,Returns the value of Euler's number e,Math.E,Math.E // 2.718,Get the value of Euler's number e
+Math.abs,Basic,Returns the absolute value of a number,Math.abs(x),Math.abs(-5) // 5,Get the absolute value of a number
+Math.pow,Basic,Returns base raised to the exponent,"Math.pow(x, y)","Math.pow(2, 3) // 8",Calculate a number raised to a power
+Math.sqrt,Basic,Returns the square root of a number,Math.sqrt(x),Math.sqrt(16) // 4,Get the square root of a number
+Math.round,Rounding,Rounds a number to the nearest integer,Math.round(x),Math.round(4.5) // 5,Round a number to the nearest integer
+Math.min,Min/Max,Returns the smallest number from a list of arguments,"Math.min(a, b, ...)","Math.min(3, 1, 4) // 1",Get the smallest number in a list
+Math.max,Min/Max,Returns the largest number from a list of arguments,"Math.max(a, b, ...)","Math.max(3, 1, 4) // 4",Get the largest number in a list
+Math.random,Random,Returns a random number between 0 (inclusive) and 1 (exclusive),Math.random(),Math.random() // 0.539,Generate a random number between 0 and 1
+Math.PI,Constant,Returns the value of π (pi),Math.PI,Math.PI // 3.14159...,Get the value of π
+Math.abs,Basic,Returns the absolute value of a number,Math.abs(x),Math.abs(-5) // 5,Get the absolute value of a number
+Math.pow,Basic,Returns base raised to the exponent,"Math.pow(x, y)","Math.pow(2, 3) // 8",Calculate a number raised to a power
+Math.sqrt,Basic,Returns the square root of a number,Math.sqrt(x),Math.sqrt(16) // 4,Get the square root of a number
+Math.cbrt,Basic,Returns the cube root of a number,Math.cbrt(x),Math.cbrt(27) // 3,Get the cube root of a number
+Math.exp,Exponential,Returns e raised to a power,Math.exp(x),Math.exp(1) // 2.718,Calculate e raised to a power
+Math.log,Logarithmic,Returns the natural logarithm of a number,Math.log(x),Math.log(10) // 2.302,Get the natural logarithm of a number
+Math.log10,Logarithmic,Returns the base 10 logarithm of a number,Math.log10(x),Math.log10(100) // 2,Get the base 10 logarithm of a number
+Math.log2,Logarithmic,Returns the base 2 logarithm of a number,Math.log2(x),Math.log2(8) // 3,Get the base 2 logarithm of a number
+Math.round,Rounding,Rounds a number to the nearest integer,Math.round(x),Math.round(4.5) // 5,Round a number to the nearest integer
+Math.ceil,Rounding,Rounds a number up to the next largest integer,Math.ceil(x),Math.ceil(4.2) // 5,Round a number up to the next largest integer
+Math.floor,Rounding,Rounds a number down to the next smallest integer,Math.floor(x),Math.floor(4.8) // 4,Round a number down to the next smallest integer
+Math.trunc,Rounding,"Returns the integer part of a number, removing decimals",Math.trunc(x),Math.trunc(4.9) // 4,"Get the integer part of a number, removing decimals"
+Math.min,Min/Max,Returns the smallest number from a list of arguments,"Math.min(a, b, ...)","Math.min(3, 1, 4) // 1",Get the smallest number in a list
+Math.max,Min/Max,Returns the largest number from a list of arguments,"Math.max(a, b, ...)","Math.max(3, 1, 4) // 4",Get the largest number in a list
+Math.sin,Trigonometric,Returns the sine of a value in radians,Math.sin(x),Math.sin(Math.PI / 2) // 1,Get the sine of a value in radians
+Math.cos,Trigonometric,Returns the cosine of a value in radians,Math.cos(x),Math.cos(Math.PI) // -1,Get the cosine of a value in radians
+Math.tan,Trigonometric,Returns the tangent of a value in radians,Math.tan(x),Math.tan(Math.PI / 4) // 1,Get the tangent of a value in radians
+Math.asin,Trigonometric,Returns the arcsine (inverse sine) of a value,Math.asin(x),Math.asin(1) // 1.57,Get the arcsine (inverse sine) of a value
+Math.acos,Trigonometric,Returns the arccosine (inverse cosine) of a value,Math.acos(x),Math.acos(1) // 0,Get the arccosine (inverse cosine) of a value
+Math.atan,Trigonometric,Returns the arctangent (inverse tangent) of a value,Math.atan(x),Math.atan(1) // 0.785,Get the arctangent (inverse tangent) of a value
+Math.atan2,Trigonometric,Returns the arctangent of y/x considering quadrant,"Math.atan2(y, x)","Math.atan2(1, 1) // 0.785",Get the arctangent of y/x considering quadrant
+Math.sinh,Hyperbolic,Returns the hyperbolic sine of a value,Math.sinh(x),Math.sinh(1) // 1.175,Get the hyperbolic sine of a value
+Math.cosh,Hyperbolic,Returns the hyperbolic cosine of a value,Math.cosh(x),Math.cosh(1) // 1.543,Get the hyperbolic cosine of a value
+Math.tanh,Hyperbolic,Returns the hyperbolic tangent of a value,Math.tanh(x),Math.tanh(1) // 0.761,Get the hyperbolic tangent of a value
+Math.asinh,Hyperbolic,Returns the hyperbolic arcsine of a value,Math.asinh(x),Math.asinh(1) // 0.881,Get the hyperbolic arcsine of a value
+Math.acosh,Hyperbolic,Returns the hyperbolic arccosine of a value,Math.acosh(x),Math.acosh(2) // 1.317,Get the hyperbolic arccosine of a value
+Math.atanh,Hyperbolic,Returns the hyperbolic arctangent of a value,Math.atanh(x),Math.atanh(0.5) // 0.549,Get the hyperbolic arctangent of a value
+Math.random,Random,Returns a random number between 0 (inclusive) and 1 (exclusive),Math.random(),"Math.random() // e.g., 0.539",Generate a random number between 0 and 1
+Math.PI,Constant,Returns the value of π (pi),Math.PI,Math.PI // 3.14159...,Get the value of π
+Math.E,Constant,Returns the value of Euler's number e,Math.E,Math.E // 2.718,Get the value of Euler's number e
+isNaN,Global,Checks if a value is NaN (Not-a-Number),isNaN(value),isNaN('hello') // true,Check if a value is NaN
+parseInt,Global,Parses a string and returns an integer,"parseInt(string, radix)",parseInt('10') // 10,Convert a string to an integer
+parseFloat,Global,Parses a string and returns a floating-point number,parseFloat(string),parseFloat('3.14') // 3.14,Convert a string to a floating-point number
+String.prototype.charAt,String,Returns the character at a specified index,str.charAt(index),'Hello'.charAt(1) // 'e',Get a character at a specific index
+String.prototype.concat,String,Concatenates two or more strings,str.concat(...strings),'Hello'.concat(' World') // 'Hello World',Combine multiple strings
+String.prototype.includes,String,Checks if a string contains another string,str.includes(substring),'Hello World'.includes('World') // true,Check if a substring exists in a string
+String.prototype.indexOf,String,Returns the index of the first occurrence of a substring,str.indexOf(substring),'Hello World'.indexOf('World') // 6,Find the position of a substring in a string
+String.prototype.slice,String,Extracts a section of a string and returns it as a new string,"str.slice(start, end)","'Hello World'.slice(0, 5) // 'Hello'",Extract part of a string
+String.prototype.toUpperCase,String,Converts the string to uppercase,str.toUpperCase(),'hello'.toUpperCase() // 'HELLO',Convert text to uppercase
+Date.prototype.getDate,Date,Returns the day of the month for a specified date,date.getDate(),new Date().getDate() // 15,Get the day of the month from a date
+Date.prototype.getFullYear,Date,Returns the year of the specified date,date.getFullYear(),new Date().getFullYear() // 2024,Get the year from a date
+Date.prototype.toISOString,Date,Converts a date to a string in ISO format,date.toISOString(),new Date().toISOString() // '2024-11-03T00:00:00.000Z',Convert date to ISO format
+Date.prototype.setDate,Date,Sets the day of the month for a specified date,date.setDate(day),date.setDate(1),Set the day of the month
+Date.prototype.getTime,Date,Returns the numeric value of a specified date,date.getTime(),new Date().getTime() // 1609459200000,Get the timestamp from a date
+Object.keys,Object,Returns an array of a given object's property names,Object.keys(obj),"Object.keys({a: 1, b: 2}) // ['a', 'b']",Get all keys of an object
+Object.values,Object,Returns an array of a given object's own enumerable property values,Object.values(obj),"Object.values({a: 1, b: 2}) // [1, 2]",Get all values of an object
+Object.entries,Object,"Returns an array of a given object's own enumerable property [key, value] pairs",Object.entries(obj),"Object.entries({a: 1, b: 2}) // [['a', 1], ['b', 2]]","Get [key, value] pairs of an object"
+Object.assign,Object,Copies values from one or more source objects to a target object,"Object.assign(target, ...sources)","Object.assign({}, {a: 1}, {b: 2}) // {a: 1, b: 2}",Merge properties of objects
+Object.freeze,Object,"Freezes an object, preventing new properties from being added",Object.freeze(obj),Object.freeze({a: 1}),Prevent any changes to an object
+Number.prototype.toFixed,Number,Formats a number using fixed-point notation,num.toFixed(digits),(123.456).toFixed(2) // '123.46',Format number to fixed decimal points
+Number.prototype.toExponential,Number,Returns a string representing the number in exponential notation,num.toExponential(fractionDigits),(123.456).toExponential(2) // '1.23e+2',Convert number to exponential notation
+Number.isInteger,Number,Determines if the passed value is an integer,Number.isInteger(value),Number.isInteger(4) // true,Check if a value is an integer
+JSON.parse,JSON,Parses a JSON string and returns a JavaScript object,JSON.parse(text),"JSON.parse('{""a"": 1}') // {a: 1}",Parse JSON string to an object
+JSON.stringify,JSON,Converts a JavaScript object or value to a JSON string,JSON.stringify(value),"JSON.stringify({a: 1}) // '{""a"":1}'",Convert an object to a JSON string
+document.title,Document Property,Represents the title of the document,document.title,document.title = 'New Page Title',Retrieve or set the document title
+document.URL,Document Property,Returns the complete URL of the document,document.URL,console.log(document.URL) // 'https://example.com',Get the full URL of the document
+document.domain,Document Property,Returns the domain name of the server that loaded the document,document.domain,console.log(document.domain) // 'example.com',Get the domain name of the current document
+document.body,Document Property,Represents the <body> element of the document,document.body,console.log(document.body) // <body> element,Access the document's <body> element
+document.head,Document Property,Represents the <head> element of the document,document.head,console.log(document.head) // <head> element,Access the document's <head> element
+document.cookie,Document Property,Gets or sets the cookies associated with the document,document.cookie,document.cookie = 'username=JohnDoe',Get or set cookies for the document
+document.referrer,Document Property,Returns the URI of the document that linked to the current document,document.referrer,console.log(document.referrer) // 'https://referrer.com',Get the URL of the referring document
+document.readyState,Document Property,Indicates the loading state of the document,document.readyState,console.log(document.readyState) // 'complete',Check if the document has fully loaded
+document.documentElement,Document Property,Represents the root element of the document,document.documentElement,console.log(document.documentElement) // <html> element,Access the root <html> element of the document
+document.scripts,Document Property,Returns a list of all <script> elements in the document,document.scripts,console.log(document.scripts) // HTMLCollection of <script> elements,Retrieve all <script> elements in the document
+document.links,Document Property,Returns a collection of all <a> and <area> elements with href attributes,document.links,console.log(document.links) // HTMLCollection of <a> elements with href,Retrieve all links in the document
+document.forms,Document Property,Returns a collection of all <form> elements in the document,document.forms,console.log(document.forms) // HTMLCollection of <form> elements,Access all forms in the document
+document.images,Document Property,Returns a collection of all <img> elements in the document,document.images,console.log(document.images) // HTMLCollection of <img> elements,Get all images in the document
+document.embeds,Document Property,Returns a collection of all <embed> elements in the document,document.embeds,console.log(document.embeds) // HTMLCollection of <embed> elements,Get all embedded content in the document
+document.activeElement,Document Property,Returns the element that currently has focus in the document,document.activeElement,console.log(document.activeElement) // Focused element,Find the element that currently has focus
+document.getElementById,Document Method,Returns the element with the specified ID,document.getElementById(id),document.getElementById('header'),Get an element by its ID
+document.getElementsByClassName,Document Method,Returns a collection of elements with the specified class name,document.getElementsByClassName(className),document.getElementsByClassName('menu'),Get elements by their class name
+document.getElementsByTagName,Document Method,Returns a collection of elements with the specified tag name,document.getElementsByTagName(tagName),document.getElementsByTagName('div'),Get elements by their tag name
+document.querySelector,Document Method,Returns the first element that matches the specified CSS selector,document.querySelector(selector),document.querySelector('.container'),Select the first matching element based on a CSS selector
+document.querySelectorAll,Document Method,Returns a list of all elements that match the specified CSS selector,document.querySelectorAll(selector),document.querySelectorAll('.items'),Select all matching elements based on a CSS selector
+document.createElement,Document Method,Creates an HTML element with the specified tag name,document.createElement(tagName),document.createElement('p'),Create a new HTML element
+document.createTextNode,Document Method,Creates a text node containing the specified text,document.createTextNode(text),document.createTextNode('Hello World'),Create a new text node
+document.addEventListener,Event Method,Attaches an event handler to the specified element,"document.addEventListener(type, listener)","element.addEventListener('click', function)",Attach an event listener to an element
+document.removeEventListener,Event Method,Removes an event handler from the specified element,"document.removeEventListener(type, listener)","element.removeEventListener('click', function)",Remove an attached event listener from an element
+document.write,Document Method,Writes HTML expressions or JavaScript code to a document,document.write(text),document.write('<p>Hello World</p>'),Write directly to the HTML document (not recommended for modern web development)
+document.writeln,Document Method,Writes a line of HTML expressions or JavaScript code to a document,document.writeln(text),document.writeln('<p>Hello World</p>'),Write a line of HTML or JavaScript to the document
+document.appendChild,Document Method,Appends a node as the last child of a parent node,parentNode.appendChild(childNode),parentNode.appendChild(newElement),Add a new child element to a parent element
+document.removeChild,Document Method,Removes a child node from the specified parent node,parentNode.removeChild(childNode),parentNode.removeChild(childElement),Remove a child element from a parent element
+document.replaceChild,Document Method,Replaces a child node with another node in the specified parent node,"parentNode.replaceChild(newNode, oldNode)","parentNode.replaceChild(newElement, oldElement)",Replace one child element with another in a parent element
+document.cloneNode,Document Method,Creates a duplicate of the node on which this method was called,node.cloneNode(deep),element.cloneNode(true),Duplicate an existing node
