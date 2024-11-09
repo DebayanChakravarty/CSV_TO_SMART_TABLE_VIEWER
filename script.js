@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(){
 
-const filePath = './JavaScript_Function_Classification_with_Use_Cases.csv';
+const filePath = './Complete_JavaScript_Function_Classification_with_Math_Functions.csv';
 
 
 // Method 1: Read CSV File and Create an Array of Rows and Columns
